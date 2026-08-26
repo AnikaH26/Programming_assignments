@@ -15,6 +15,12 @@ public class Optional {
         System.out.println("x-intercept = "+x_int);
         System.out.println("y-intercept = " + y_int);
 
+        int a=1;
+        int quad_b=6;
+        int c=9;
+        
+
+
         
 
         

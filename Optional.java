@@ -20,8 +20,9 @@ public class Optional {
         int c=9;
         double pos_value= (-quad_b+Math.sqrt(quad_b*quad_b-4*a*c))/(2*a);
         double neg_value= (-quad_b-Math.sqrt(quad_b*quad_b-4*a*c))/(2*a);
-        System.out.println(pos_value);
-        System.out.println(neg_value);
+        System.out.println("First zero: x= "+pos_value);
+        System.out.println("Second zero: x= "+neg_value);
+
         
 
         

@@ -13,7 +13,12 @@ public class ArrayDifficult {
     }
       System.out.println(max);
 
-      List<Double> list=new ArrayList<>();
+      List<Integer> PrimeNum=new ArrayList<>();
+      for (int i=0;i<=50;i++) {
+        if (isPrime(i)) {
+          PrimeNum.add(i);
+        }
+      }
       
 }
 }

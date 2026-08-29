@@ -1,3 +1,6 @@
+import java.util.ArrayList;
+import java.util.List;
+
 public class ArrayDifficult {
     public static void main(String[] args) {
       int[] blackjack = {18, 19, 26, 16, 20, 23, 13, 30, 15, 28};
@@ -8,8 +11,10 @@ public class ArrayDifficult {
       }
       
     }
-    System.out.println(max);
-    
+      System.out.println(max);
+
+      List<Double> list=new ArrayList<>();
+      
 }
 }
     

@@ -19,6 +19,7 @@ public class ArrayDifficult {
           PrimeNum.add(j);
         }
       }
+      //add prime boolean??
       
 }
 }

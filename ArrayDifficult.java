@@ -13,16 +13,49 @@ public class ArrayDifficult {
     } 
       System.out.println(max);
 
-      List<Integer> PrimeNum=new ArrayList<>();
-      for (int j=;j<=50;j++) {
-        if (isPrime(j)) {
-          PrimeNum.add(j);
-        }
+      ArrayList<Integer> PrimeNum=new ArrayList<Integer>();
+      int limits= 50;
+      for (int j=2;j<=limits;j++) {
+        
       }
+       ArrayList <Integer> prime = new ArrayList<Integer>();
+        int numberTest = 0;
+        int limit = 50;
+        for (int a = 0; a <= limit; a++)
+        {
+            numberTest = a;
+            if (numberTest == 2)
+            {
+                prime.add(numberTest);
+            }
+            for (int b = 2; b <= numberTest;)
+            {
+                if ((numberTest % b) == 0)
+                {
+                    break;
+                }
+                else
+                {
+                    prime.add(numberTest);
+                    break;
+                }
+            }
+        }
+        System.out.println("Prime numbers under " + limit + ": " + prime);
+
+    }
+    
+
+
       //add prime boolean??
+       
+    
+
+}
       
-}
-}
+
+
+
 
 
 

@@ -1,7 +1,5 @@
 public class Optional {
     public static void main(String[] args) {
-        int min;
-        int sec;
         System.out.println(1678/60+" minutes and "+1678%60+" seconds");
         int A=16;
         int B=7;

@@ -10,11 +10,11 @@ public class ArrayDifficult {
             max = blackjack[i];
       }
       
-    }
+    } 
       System.out.println(max);
 
       List<Integer> PrimeNum=new ArrayList<>();
-      for (int j=0;j<=50;j++) {
+      for (int j=;j<=50;j++) {
         if (isPrime(j)) {
           PrimeNum.add(j);
         }
@@ -22,6 +22,7 @@ public class ArrayDifficult {
       
 }
 }
-    
+
+
 
 

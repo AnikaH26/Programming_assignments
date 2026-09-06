@@ -3,7 +3,7 @@
 public class Quadratic {
     public static void main(String[] args) {
     int a=5;
-    int b=3;
+    int b=6;
     int c=4;
     int discriminant=(b^2)-(4*a*c);
     if (discriminant==0)

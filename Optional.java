@@ -6,7 +6,7 @@ public class Optional {
         int Height=8;
         System.out.println("Area = "+(A+B)*Height+" units");
     
-        double m=5.0;
+        double m=6.0;
         double b=3.0;
         double x_int= -b/m;
         double y_int=b;

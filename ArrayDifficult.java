@@ -17,10 +17,10 @@ public class ArrayDifficult {
           System.out.println(max);
     
           ArrayList<Integer> PrimeNum=new ArrayList<Integer>();
-          int limits= 50;
+          int limit= 50;
           int a;
           int b;
-          for (a=2;a<=limits;a++)
+          for (a=2;a<=limit;a++)
           {
             boolean isPrime = true;
             

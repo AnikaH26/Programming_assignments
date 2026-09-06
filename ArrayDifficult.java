@@ -18,28 +18,32 @@ public class ArrayDifficult {
     
           ArrayList<Integer> PrimeNum=new ArrayList<Integer>();
           int limits= 50;
-          double a;
-          double b;
-          for (a=2;a<=limits;a++); 
+          int a;
+          int b;
+          for (a=2;a<=limits;a++)
           {
             boolean isPrime = true;
             
           
-            for (b=2;b<=Math.sqrt(a);b++);
+            for (b=2;b<=Math.sqrt(a);b++)
         {
-              if (a%b==0);{
+              if (a%b==0){
                   isPrime = false;
+                  break;
               } 
-              if (isPrime=true); {
-                PrimeNum.add(a);
+            }
+            if (isPrime) {
+              PrimeNum.add(a);
               }
+          
 
               
           
 
-        }
+        
 
-      
+        
       }
+      System.out.println(PrimeNum);
     }
   }

@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class Function {
     static boolean EvenOdd(int a) {
         if(a%2==0){
@@ -15,8 +17,14 @@ public class Function {
         f=result;
         return f;
     }
-    static int FactorialArray(int array[]){
-        for int i
+    static int[] FactorialArray(int[] array){
+        int[] value= new int[array.length];
+        for (int i=0;i<array.length;i++){
+            
+            value[i]= Factorial(array[i]);
+            
+        }
+        return value;
     }
 
     public static void main(String[] args) {
@@ -30,6 +38,8 @@ public class Function {
         }
         int f=4;
         System.out.println(Factorial(f));
+        int[] array={2, 6, 7, 10};
+        System.out.println(Arrays.toString(FactorialArray(array)));
 
     }
 }
